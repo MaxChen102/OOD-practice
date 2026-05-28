@@ -7,6 +7,23 @@
 6. The game should handle player turns and validate moves to ensure they are legal.
 7. The game should detect and announce the winner or a draw at the end of the game.
 
-## Solution
+## Classes and methods
 
-### asd
+### Game
+- switch player turns
+- asks board to check state or update state
+
+### Board
+- stores grid (3x3 2D array)
+- check if move is valid (move is within grid and cell is empty)
+- check wins (horizontal, vertical, diagonal)
+- check draws (if board is full)
+- place symbols
+
+### Player
+- name
+- symbol (O or X)
+
+### Move
+- row and column
+
