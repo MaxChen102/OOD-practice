@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from coin import Coin
 from inventory import Inventory
 from product import Product
